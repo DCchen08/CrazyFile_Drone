@@ -14,13 +14,18 @@ Before downloading the file, please make sure that you should have the right ver
    roslaunch rotors_gazebo crazyflie2_with_joy.launch
  
  4. The python file that we used to control the robot in this stage is test.py (CrazyS/rotors_gazebo/scripts). 
-    When you want to execute the file and control the drone, open another command window and type python3 test.py
+    When you want to execute the file and control the drone, open another command window and type the following
+    
+    python3 test.py
     
  
  Test file note:
  Control list: the Pwm number you need to put in for control the angular velocity of motor.
  Self.r : this is the frequency that the file tell robot to do
  omega: this is the motor speed in rad/s
+ 
+ 
+ 
  
  
  
